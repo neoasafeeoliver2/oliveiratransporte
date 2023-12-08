@@ -1,0 +1,44 @@
+#imgemail {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+#imagetel {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+#entrecontato {
+    margin-top: 0%;
+    font-size: 20px;
+    font-family: fonte2;
+}
+
+#telefone1 {
+    font-family: fonte2;
+    font-size: 20px;
+    font-style: italic;
+}
+#email1 {
+    font-family: fonte2;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#rotadavan {
+    font-family: fonte2;
+    font-size: 20px;
+}
+
+#logoimg {
+    width: 150px;
+    margin: 30vh;
+    position:absolute;
+    top: 100%;
+    left: 0;
+
+}

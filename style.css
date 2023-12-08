@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body {
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #5a705b;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin-top: 50px;
+}
+@media screen and (max-width: 999px) {
+    header {
+      padding: 10px;
+      height: 30vh;
+      margin-top: 20px;
+      font-size: 5px;
+      flex-direction: column;
+      background-size: cover;
+      border-radius: 10px;
+    }
+  }
+h2 {
+    color: #000000;
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer {
+    letter-spacing: 2px;
+    font-family: minhafonte;
+    text-align: center;
+    padding: 30px;
+    background-color: #313831;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    margin-top: 150px;
+ 
+    
+    }
+
+
+.botao-whatsapp {
+
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+#ducato {
+    display: block; /* Exibe a imagem como bloco */
+    width: 300px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    position: absolute; /* Define a posição absoluta para que a imagem possa ser posicionada livremente */
+    top: 60%; /* Ajusta a posição vertical da imagem para o centro do cabeçalho */
+    transform: translateY(-50%); /* Ajusta a posição vertical da imagem para o centro do cabeçalho */
+    margin-left: 70%;
+}
+
+/* Adaptações para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    #ducato {
+      width: 50%; /* Ajusta a largura para ocupar 100% da largura da tela */
+      margin-left: 0; /* Remove a margem à esquerda para centralizar na tela */
+      top: 40%; /* Ajusta a posição vertical para o centro da tela */
+      transform: translateY(-50%); /* Mantém a imagem centrada verticalmente */
+    }
+  }
+
+
+.botao-whatsapp img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.botao-whatsapp:hover img {
+    transform: scale(1.1);
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+#contato {
+    text-align: center;
+    background-color: #23232e;
+    border-radius: 20px;
+    font-family: fonte2;
+    display: inline-block;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;
+   
+    color: #ffffff;
+
+}
+
+header, section {
+    width: 80%; /* Define uma largura máxima para os elementos */
+    margin: 0 auto; /* Centraliza os elementos horizontalmente */
+}
+
+#secao {
+
+    text-align: center;
+}
+
+
+#paragrafo {
+
+    font-family: fonte2;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+
